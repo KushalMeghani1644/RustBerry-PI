@@ -1,0 +1,21 @@
+[package]
+name = "bootloader"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+debug = true
+overflow-checks = true
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+
+[build-dependencies]
+cc = "1.2.44"
+
