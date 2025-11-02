@@ -1,0 +1,3 @@
+*.rs linguist-language=Rust
+*.S linguist-language=Assembly
+*.toml linguist-language=TOML
