@@ -1,1 +1,0 @@
-/home/kushal/rustberry/target/riscv64imac-unknown-none-elf/debug/bootloader: /home/kushal/rustberry/bootloader/build.rs /home/kushal/rustberry/bootloader/src/main.rs /home/kushal/rustberry/bootloader/src/start.S
